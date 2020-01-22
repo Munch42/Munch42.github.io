@@ -1,0 +1,154 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to bottom right, rgba(5, 31, 102, 0.918), rgba(30, 3, 80, 0.829));
+    color: white;
+    background-blend-mode: multiply;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+/* Header */
+header{
+    height: 30vh;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 50px;
+}
+
+header a.logo{
+    background-image: url("img/MunchDevLogo.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -99999999px;
+    top: -15px;
+    width: 111px;
+    left: -10px;
+}
+
+/* Navigation */
+
+nav li{
+    margin-right: 20px;
+    float: right;
+    position: relative;
+    right: 20px;
+}
+
+nav li:first-child{
+    float: left;
+    right: 0px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li a.home{
+    order: 1;
+}
+
+header a:hover{
+    color: rgba(19, 121, 161, 0.918);
+}
+
+/* above Iphone 5 to desktop Home move down */
+@media screen and (min-width: 381px){
+    br.mobile{
+        display: none;
+    }
+    br.mobile2{
+        display: none;
+    }
+    br.mobile3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px){
+    br.mobile{
+        display: initial;
+    }
+    br.mobile2{
+        display: initial;
+    }
+    br.mobile3{
+        display: none;
+    }
+    header a{
+        top: -10px;
+    }
+}
+
+/* Iphone 5 Home move down */
+
+@media screen and (max-width: 325px){
+    br.mobile{
+        display: initial;
+    }
+    br.mobile2{
+        display: none;
+    }
+    br.mobile3{
+        display: initial;
+    }
+}
+
+/* Welcome */
+section.welcome{
+    text-align: center;
+    font-size: 50px;
+    height: 70vh;
+    font-family: 'Merriweather', serif;
+}
+
+/* About Me */
+section.aboutme{
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+a.button{
+    font-size: 35px;
+    color: rgb(31, 28, 28);
+    background-color: rgb(202, 105, 14);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: 2px solid rgb(131, 66, 6);
+}
+
+a.button:hover{
+    color: rgb(61, 44, 44);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
