@@ -73,7 +73,7 @@ header a:hover{
 }
 
 /* above Iphone 5 to desktop Home move down */
-@media screen and (min-width: 381px){
+@media screen and (min-width: 416px){
     br.mobile{
         display: none;
     }
@@ -83,9 +83,12 @@ header a:hover{
     br.mobile3{
         display: none;
     }
+    br.desktop{
+        display: none;
+    }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 415px){
     br.mobile{
         display: initial;
     }
@@ -97,6 +100,9 @@ header a:hover{
     }
     header a{
         top: -10px;
+    }
+    br.desktop{
+        display: none;
     }
 }
 
@@ -111,6 +117,9 @@ header a:hover{
     }
     br.mobile3{
         display: initial;
+    }
+    br.desktop{
+        display: none;
     }
 }
 
@@ -127,6 +136,11 @@ section.aboutme{
     margin: 20px;
     text-align: center;
     font-size: 40px;
+    height: 90vh;
+}
+
+section.aboutme p{
+    font-size: 25px;
 }
 
 a.button{
@@ -142,6 +156,55 @@ a.button{
 
 a.button:hover{
     color: rgb(61, 44, 44);
+}
+
+/* Responsive Scaling *Bigger* */
+@media screen and (min-width: 410px) and (max-width: 900px){
+    header{
+        font-size: 25px;
+    }
+
+    header a.logo{
+        background-size: 125px;
+        width: 125px;
+        height: 125px;
+    }
+
+    section.aboutme p{
+        font-size: 35px;
+    }
+
+    section.aboutme h3{
+        font-size: 60px;
+    }
+
+    br.desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px){
+    header{
+        font-size: 25px;
+    }
+
+    header a.logo{
+        background-size: 150px;
+        width: 150px;
+        height: 150px;
+    }
+
+    section.aboutme p{
+        font-size: 40px;
+    }
+
+    section.aboutme h3{
+        font-size: 65px;
+    }
+
+    br.desktop{
+        display: initial;
+    }
 }
 
 /* Footer */
