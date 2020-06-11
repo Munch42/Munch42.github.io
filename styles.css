@@ -211,6 +211,50 @@ section.contact p{
     font-size: 30px;
 }
 
+/* Projects */
+section.welcomeprojects{
+    text-align: center;
+    font-size: 50px;
+    height: 70vh;
+    padding-top: 10vh;
+}
+
+section.projects{
+    text-align: center;
+    font-size: 50px;
+}
+
+section.projects p{
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+}
+
+.mcPlugins{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mcPlugins figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase ;
+    width: 200px;
+}
+
+.mcPlugins figure img{
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.mcPlugins figcaption{
+    font-size: 30px;
+}
+
 /* Responsive Scaling *Bigger* */
 @media screen and (min-width: 410px) and (max-width: 900px){
     header{
@@ -240,6 +284,18 @@ section.contact p{
     }
 
     .contactPics figcaption{
+        font-size: 25px;
+    }
+
+    section.projects p{
+        font-size: 35px;
+    }
+
+    section.projects h3{
+        font-size: 60px;
+    }
+
+    .mcPlugins figcaption{
         font-size: 25px;
     }
 
@@ -280,6 +336,18 @@ section.contact p{
     }
 
     .contactPics figcaption{
+        font-size: 25px;
+    }
+
+    section.projects p{
+        font-size: 35px;
+    }
+
+    section.projects h3{
+        font-size: 60px;
+    }
+
+    .mcPlugins figcaption{
         font-size: 25px;
     }
 
