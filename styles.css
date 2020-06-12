@@ -214,7 +214,7 @@ section.contact p{
 /* Projects */
 section.welcomeprojects{
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     height: 70vh;
     padding-top: 10vh;
 }
@@ -253,6 +253,86 @@ section.projects p{
 
 .mcPlugins figcaption{
     font-size: 30px;
+}
+
+li.projectButtons{
+    position: relative;
+    bottom: 0px;
+}
+
+ul.projectButtons{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* above Iphone 5 to desktop */
+@media screen and (min-width: 416px){
+    section.welcomeprojects{
+        text-align: center;
+        font-size: 70px;
+        height: 70vh;
+        padding-top: 10vh;
+        position: relative;
+        bottom: 100px;
+    }
+
+    li.projectButtons{
+        position: relative;
+        bottom: -10px;
+    }
+    
+    ul.projectButtons{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 415px){
+    section.welcomeprojects{
+        text-align: center;
+        font-size: 70px;
+        height: 70vh;
+        padding-top: 10vh;
+        position: relative;
+        bottom: 100px;
+    }
+
+    li.projectButtons{
+        position: relative;
+        bottom: -10px;
+    }
+    
+    ul.projectButtons{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+/* Iphone 5 */
+
+@media screen and (max-width: 325px){
+    section.welcomeprojects{
+        text-align: center;
+        font-size: 70px;
+        height: 70vh;
+        padding-top: 10vh;
+        position: relative;
+        bottom: 100px;
+    }
+
+    li.projectButtons{
+        position: relative;
+        bottom: -10px;
+    }
+    
+    ul.projectButtons{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
 }
 
 /* Responsive Scaling *Bigger* */
@@ -306,6 +386,24 @@ section.projects p{
     a.button-thin{
         margin: 0 30px;
     }
+
+    section.welcomeprojects{
+        text-align: center;
+        font-size: 70px;
+        height: 70vh;
+        padding-top: 10vh;
+    }
+
+    li.projectButtons{
+        position: relative;
+        bottom: 0px;
+    }
+    
+    ul.projectButtons{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
 }
 
 @media screen and (min-width: 900px){
@@ -357,6 +455,24 @@ section.projects p{
 
     a.button-thin{
         margin: 0 50px;
+    }
+
+    section.welcomeprojects{
+        text-align: center;
+        font-size: 70px;
+        height: 70vh;
+        padding-top: 10vh;
+    }
+
+    li.projectButtons{
+        position: relative;
+        bottom: 0px;
+    }
+    
+    ul.projectButtons{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
     }
 }
 
