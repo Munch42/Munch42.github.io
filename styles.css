@@ -340,6 +340,11 @@ ul.projectButtons{
         padding: 0;
         list-style-type: none;
     }
+
+    img.avatarImg {
+        width: 60%;
+        height: 50%;
+    }
 }
 
 /* Iphone 5 */
@@ -363,6 +368,11 @@ ul.projectButtons{
         margin: 0;
         padding: 0;
         list-style-type: none;
+    }
+
+    img.avatarImg {
+        width: 70%;
+        height: 50%;
     }
 }
 
@@ -434,6 +444,11 @@ ul.projectButtons{
         margin: 0;
         padding: 0;
         list-style-type: none;
+    }
+
+    img.avatarImg {
+        width: 50%;
+        height: 50%;
     }
 }
 
