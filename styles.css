@@ -129,10 +129,28 @@ section.welcome{
     font-size: 50px;
     height: 70vh;
     font-family: 'Merriweather', serif;
-    padding-top: 10vh;
-    animation: welcomeTransitionIn 2s;
+    animation: welcomeTransitionIn 1.5s;
 }
 
+img.avatarImg {
+    width: 30%;
+    height: 75%;
+    border: 3px solid purple;
+    border-radius: 10px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+img.avatarImg:hover{
+    /*transform: skew(10deg, -2deg);*/
+    transform: rotate3d(1, 1, 0, 30deg);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+/*https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp*/
 @keyframes welcomeTransitionIn {
     from {
         opacity: 0;
@@ -322,6 +340,11 @@ ul.projectButtons{
         padding: 0;
         list-style-type: none;
     }
+
+    img.avatarImg {
+        width: 60%;
+        height: 50%;
+    }
 }
 
 /* Iphone 5 */
@@ -345,6 +368,11 @@ ul.projectButtons{
         margin: 0;
         padding: 0;
         list-style-type: none;
+    }
+
+    img.avatarImg {
+        width: 70%;
+        height: 50%;
     }
 }
 
@@ -416,6 +444,11 @@ ul.projectButtons{
         margin: 0;
         padding: 0;
         list-style-type: none;
+    }
+
+    img.avatarImg {
+        width: 50%;
+        height: 50%;
     }
 }
 
